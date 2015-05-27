@@ -1,3 +1,11 @@
+html {
+  background: url(../images/cover-1200x800@2x.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   background-color: rgb(255, 255, 255);
   font: 400 1em/0.7 Lato;
@@ -64,8 +72,10 @@ body {
 .image-2 {
   top: 0;
   left: 0;
-  width: 100%;
-  min-width: 1200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .text-1 {
