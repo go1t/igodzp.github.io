@@ -5,32 +5,24 @@ body {
 }
 
 .container {
-  position: relative;
-  float: left;
-  margin-left: 10%;
-}
-
-.container .image {
-  width: 169px;
-  margin: 23px auto 0;
+  position: fixed;
+  left: 10%;
 }
 
 .container .text {
+  float: left;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .image {
   display: block;
+  position: fixed;
   height: auto;
   overflow: hidden;
 }
 
-.text {
-  float: left;
-}
-
-.text-3 p {
+.text-1 p {
   margin-bottom: 1em;
 }
 
@@ -49,84 +41,88 @@ body {
 }
 
 .container-1 {
-  z-index: 3;
-  width: 209px;
-  height: 66px;
-  margin-top: 263px;
+  bottom: -496px;
+  z-index: 13;
+  width: 282px;
+  height: 623px;
 }
 
 .container-2 {
-  clear: both;
-  z-index: 13;
-  width: 17.4166666666%;
-  height: 217px;
-  margin-top: 23px;
+  bottom: 202px;
+  z-index: 3;
+  width: 209px;
+  height: 66px;
 }
 
 .image-1 {
-  position: fixed;
+  bottom: 295px;
+  left: 9.0833333333%;
+  z-index: 5;
+  width: 185px;
+}
+
+.image-2 {
   top: 0;
   left: 0;
+  width: 100%;
   min-width: 800px;
 }
 
 .text-1 {
+  position: fixed;
+  bottom: 145px;
+  left: 10%;
+  z-index: 4;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(247, 247, 247);
+}
+
+.text-2 {
   margin: 17px 0 0 -0.00748%;
   font-size: 2.25em;
   font-weight: 300;
   line-height: 1;
 }
 
-.text-2 {
-  margin-left: 5.1914999999%;
+.text-3 {
+  margin-left: 5.1883971291%;
   font-size: 3em;
   font-weight: 700;
   line-height: 1.38;
 }
 
-.text-3 {
-  position: relative;
-  clear: both;
-  z-index: 4;
-  margin: 12px 0 0 10%;
-  font-size: 1em;
-  font-weight: 400;
-  color: rgb(247, 247, 247);
-}
-
-._button-1 {
-  clear: both;
-  z-index: 5;
-  margin: 20px 0 0 10%;
-}
-
-._button-2 {
+.container ._button-1 {
   z-index: 6;
-  margin: 20px 0 0 0.5%;
 }
 
-._button-3 {
+.container ._button-2 {
   z-index: 7;
-  margin: 20px 0 0 0.58073%;
+  margin-left: 4px;
 }
 
-._button-4 {
+.container ._button-3 {
   z-index: 8;
-  margin: 20px 0 0 0.4987%;
+  margin-left: 4px;
 }
 
-._button-5 {
-  clear: both;
+.container ._button-4 {
   z-index: 9;
-  margin: 6px 0 0 10%;
+  margin-left: 4px;
 }
 
-._button-6 {
+.container ._button-5 {
+  clear: both;
   z-index: 10;
-  margin: 6px 0 0 0.66667%;
+  margin-top: 6px;
 }
 
-._button-7 {
+.container ._button-6 {
   z-index: 11;
-  margin: 6px 0 0 0.69271%;
+  margin: 6px 0 0 4px;
+}
+
+.container ._button-7 {
+  z-index: 12;
+  margin: 6px 0 0 4px;
 }
