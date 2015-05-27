@@ -138,6 +138,10 @@ body {
 }
 
 @media(max-width: 500px) {
+  body {
+    font-size: 0.875em;
+  }
+
   .container {
     bottom: auto;
     left: 0;
@@ -151,19 +155,31 @@ body {
   }
 
   .text {
+    font-size: 14px;
     text-align: center;
   }
 
   .container ._button {
     position: relative;
+    font-size: 1.143em;
+  }
+
+  .container .text-2 {
+    margin-top: 14px;
+    font-size: 2.143em;
+  }
+
+  .container .text-3 {
+    font-size: 2.857em;
   }
 
   .container-1 {
-    top: 417px;
+    top: 367px;
   }
 
   .container-2 {
-    top: 272px;
+    top: 249px;
+    width: 175px;
   }
 
   .image-1 {
@@ -176,7 +192,7 @@ body {
   }
 
   .text-1 {
-    top: 344px;
+    top: 308px;
     bottom: auto;
     left: 0;
     right: 0;
