@@ -155,6 +155,7 @@ body {
   }
 
   .text {
+    margin-left: auto;
     font-size: 14px;
     text-align: center;
   }
@@ -166,24 +167,27 @@ body {
 
   .container .text-2 {
     margin-top: 14px;
+    margin-left: 0;
     font-size: 2.143em;
   }
 
   .container .text-3 {
+    margin-top: 1px;
+    margin-left: 5.1875%;
     font-size: 2.857em;
   }
 
   .container-1 {
-    top: 367px;
+    top: 340px;
   }
 
   .container-2 {
-    top: 249px;
+    top: 221px;
     width: 175px;
   }
 
   .image-1 {
-    top: 46px;
+    top: 30px;
     bottom: auto;
     left: 0;
     right: 0;
@@ -192,12 +196,11 @@ body {
   }
 
   .text-1 {
-    top: 308px;
+    top: 283px;
     bottom: auto;
     left: 0;
     right: 0;
     margin-right: auto;
-    margin-left: auto;
   }
 
   .container ._button-1 {
